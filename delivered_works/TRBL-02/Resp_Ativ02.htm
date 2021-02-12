@@ -1,0 +1,120 @@
+<main>
+            <table>
+                <caption>Lucro por mês</caption>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Mês</th>
+                        <th colspan="2">Frutas</th>
+                        <th colspan="2">Verduras</th>
+                    </tr>
+                    <tr>
+                        <th>Banana</th>
+                        <th>Maça</th>
+                        <th>Cebola</th>
+                        <th>Pimentão</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Janeiro</td>
+                        <td>100</td>
+                        <td>50</td>
+                        <td>20</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Fevereiro</td>
+                        <td>120</td>
+                        <td>100</td>
+                        <td>30</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Março</td>
+                        <td>120</td>
+                        <td>150</td>
+                        <td>50</td>
+                        <td>100</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total</td>
+                        <td>340</td>
+                        <td>300</td>
+                        <td>100</td>
+                        <td>300</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <hr>
+            <figure>
+                <img src="./sol.png" alt="Figura do Sol">
+                <figcaption>Esta figura mostra o sol nascendo</figcaption>
+            </figure>
+  
+            <a href="https://ifrs.edu.br/riogrande/"> <img src="./img/if.png " alt="IFRS"></a>
+            <br>  
+            <hr>
+            <form method="POST" action="./recebe.php">
+                <fieldset>
+                    <legend>Dados do Usuário</legend>
+                    <input type="hidden" name="codigo" value="dd53">
+                    <label for="login">Login:</label><br>
+                    <input type="text" id="login" name="log" placeholder="Digite o seu login" required="" autofocus=""><br>
+                    <label for="senha">Senha:</label><br>
+                    <input type="password" id="senha" name="pasw" maxlength="10" placeholder="Digite a sua senha"> <br>
+                    <label for="telefone">Telefone:</label><br>
+                    <input type="tel" id="telefone" name="telefone"> <br>
+                    <label for="foto">Foto do usuário:</label><br>
+                    <input type="file" id="foto" multiple="" name="foto"> <br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"> <br>
+                    <label for="home">Home Page:</label><br>
+                    <input type="url" id="home" name="home"> <br>
+                    <label for="nascimento">Nascimento:</label><br>
+                    <input type="date" id="nascimento" name="nascimento"> <br>
+                    <label for="obsevacao">Observações:</label><br>
+                    <textarea name="obsevacao" id="obsevacao" cols="40" rows="4"></textarea> <br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Produtos</legend>
+                    <br>
+                    Mòvel:<br>
+                    <label for="mesa">Mesa</label>
+                    <input type="radio" id="mesa" name="movel" value="mes" checked=""><br>
+                    <label for="cadeira">Cadeira</label>
+                    <input type="radio" id="cadeira" name="movel" value="cad"> <br>
+                    
+                    <label for="cor">Cor do Móvel</label>
+                    <input type="color" id="cor" name="cor"> <br>
+
+                    <br>Sistema Operacional<br>
+                    <label for="win">Windows</label>
+                    <input type="checkbox" id="win" name="so" value="win"><br>
+                    <label for="lin">Linux</label>
+                    <input type="checkbox" id="lin" name="so" value="lin"> <br>
+                    <br>
+                    <label for="talher">Talheres:</label><br>
+                    <select id="talher" name="talher">
+                        <option>Garfo</option>
+                        <option>Faca</option>
+                    </select> <br>
+                    
+                    <label for="quantidade">Quantidade:</label><br>
+                    <input type="range" id="quantidade" value="50" name="quant" min="0" max="100"> <br>
+                    <label for="numero">Numero:</label><br>
+                    <input type="number" id="numero" name="num"> <br>
+                    <label for="procurar">Procurar:</label><br>
+                    <input type="search" id="procurar" name="procurar"> <br>
+                </fieldset>
+                <br>
+                <input type="submit" name="enviar" value="Enviar">
+
+            </form> 
+            <hr>
+
+            <iframe src="https://www.youtube.com/embed/DkeGqetissw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315"></iframe>
+
+        </main>

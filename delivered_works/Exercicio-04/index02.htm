@@ -1,0 +1,89 @@
+<!-- 2 – Dado o seguinte código HTML:
+    - Estilize o header, nav, main e footer de maneira que bem definidos (com bordas, margins,
+paddings e fundos que os destaquem).
+- Estilize a tabela da seguinte maneira:
+• A tabela deve ter bordas
+• A cor de fundo da tabela deve ser diferente da cor de fundo do main
+• A cor de fundo do caption deve ser diferente da cor da tabela e do main
+• A cor da letra do caption deve ser vermelha
+• A cor de fundo do thead e tfoot deve ser cinza. Os textos destas tags devem ser em negrito e
+na cor azul
+• A cor de fundo das demais células deve ser amarela
+• Destaque a célula <td>R$200</td> colocando nela um texto numa cor diferente das demais
+- Estilize a figura colocando bordas, fundos, paddings e margins nas tags figure, figcaption e img
+- Estilize o formulário da seguinte maneira
+• coloque um fundo de cor diferente para o fieldset
+• altere a borda do fieldset deixando-a pontilhada e mais espessa
+• coloque a cor do texto da legend como vermelho
+- Estilize a lista da seguinte maneira
+• O ul deve ter fundo cinza e uma borda de 4px
+• cada li deve ter fundo azul, ter borda, margin e padding com o valor de 2px.
+      Nas páginas dos exercícios 2 e 3 pode -se alterar o código HTML para adicionar atributos class e/ou
+id sempre que forem necessários.-->
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>Ola</title>
+</head>
+<body>
+<header>Header - Página Principal </header>
+<nav>Nav – Principal – Contato - Produtos</nav>
+<main>
+<table>
+<caption>Lucro por Mês</caption>
+<thead>
+<tr>
+<th>Mês</th>
+<th>Lucro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Janeiro</td>
+<td>R$200</td>
+</tr>
+<tr>
+<td>Fevereiro</td>
+<td>R$50</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td>Total</td>
+<td>R$250</td>
+</tr>
+</tfoot>
+</table>
+<hr>
+<figure>
+<img src="./sol.png" alt="figura do sol" />
+<figcaption>Descrição maior blablabla</figcaption>
+</figure>
+<hr>
+<form>
+<fieldset>
+<legend>Dados:</legend>
+<label for="n1">Nome:</label>
+<input type="text" id="n1"><br>
+<label for="s1">Senha:</label>
+<input type="password" id="s1">
+<input type = "submit" value = "enviar"><br></fieldset>
+</form>
+<hr>
+<ul>
+<li>
+bla <b>um</b> bla bla
+</li>
+<li> Números
+<ol >
+<li>um</li>
+<li>dois</li>
+</ol>
+</li>
+</ul>
+</main>
+<footer>Footer - Rodapé</footer>
+</body>
+</html>

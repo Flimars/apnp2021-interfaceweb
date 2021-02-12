@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Atividade 02</title>
+    <style>
+        table,th, td{border: 2px solid black;}
+    </style>
+</head>
+<body>
+    <header>    <!-- Aqui o Cabeçalho do site(Banner, log, etc) -->
+    </header>
+    <nav></nav>       <!-- Tags que formarão o menu -->
+    <section>
+        <h2>HTML Imagem 1</h2>
+        <figure>
+        <img src="./imagem1.jpeg" title="Interface Web">
+        <figure>Esta figura mosta o templates diferentes</figure>
+        </figure>
+        <hr>       
+    </section>
+    <section> 
+        <h2>HTML Imagem 2</h2>
+        <a href="https://ifrs.edu.br/riogrande/" target="_blank"><img src="../imagem2.jpeg" alt="IFRS Rio Grande"></a><br>       
+    </section> 
+    <hr>       
+    <main>      <!-- Conteúdo da página -->
+        <table> <!-- Criar uma Tabela -->
+        <caption><b>Lucro por Mês</b></caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Mês</th> 
+                <th colspan="2">Frutas</th>
+                <th colspan="2">verduras</th>                
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>Maça</td>
+                <td>Cebola</td>
+                <td>Pimentão</td>  
+            </tr> 
+            <tr>   
+                <td>Janeiro</td> 
+                <td>100</td>
+                <td>50</td> 
+                <td>20</td>
+                <td>100</td> 
+                                       
+            </tr>
+            <tr>
+                <td>Feveiro</td>
+                <td>120</td>
+                <td>100</td> 
+                <td>30</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Março</td>
+                <td>120</td>
+                <td>150</td> 
+                <td>50</td>
+                <td>100</td>
+            </tr>            
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th> Total</th>
+                <th>R$340</th>
+                <th>R$300</th>
+                <th>R$100</th>
+                <th>R$300</th>  
+            </tr>
+        </tfoot>
+        </table>
+    </main>
+    <hr>
+    <footer>    <!-- Rodapé -->
+    </footer> 
+    <section>
+        <h2>You Tube - Aula de POO</h2><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KUUrrIX6wGo"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+          gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+    </section> 
+    <hr> 
+    <section>
+        <h3>FORMULÁRIO 01</h3>
+        <form method="post" action="recebe.php">
+            Nome: <input type="text" name="nome" placeholder="Informe o seu nome"><br>
+            Email: <input type="text" name="email" placeholder="Digite seu e-mail"><br>
+            Senha: <input type="password" name="senha" maxlength="8" placeholder="********"><br>
+            <hr>
+            <input type="hidden" name="user" value="14">
+            Comentário:<br>
+            <textarea name="comentario" cols="20" rows="5">Digite a sua opinião</textarea>
+            <input type="submit" name="enviar" value="Enviar"><br>
+        </form>
+    </section>
+    <section>
+        <h3>FORMULÁRIO 02</h3>
+        <form>
+            <fieldset>
+                <legend>Dados:</legend>
+                <label for="n1">Nome:</label>
+                <input type="text" id="n1"><br>
+                <label for="s1">Senha:</label>
+                <input type="password" id="s1">
+             <!--   <input type = "submit" value = "enviar"><br> -->
+            </fieldset>
+            <fieldset>
+                <Legend>Contato:</Legend>
+                <label for="t1">Telefone:</label>
+                <input type="text" maxlength="10" placeholder="(00)0000-0000" id="t1"><br>
+                <label for="c1">Celular:</label>
+                <input type="text" maxlength="14" placeholder="(00)90000-0000" id="c1">
+                <input type = "submit" value = "enviar"><br>
+                
+            </fieldset>
+        </form>
+
+    </section>
+</body>
+</html>
+
+
+
+
