@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+header {
+    width: 300px;
+    border: 15px solid orangered;
+    padding: 50px;
+    margin: 20px;
+  }
+
+nav {
+    width: 300px;
+    border: 15px solid orangered;
+    padding: 50px;
+    margin: 20px;
+  }
+
+main {
+    width: 300px;
+    border: 15px solid orangered;
+    padding: 50px;
+    margin: 20px;
+  }
+
+footer {
+    width: 300px;
+    border: 15px solid orangered;
+    padding: 50px;
+    margin: 20px;
+  }
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+
