@@ -43,6 +43,8 @@ p {
 }
 
 /* ### index02.htm-css  */
+
+/* ### index03.htm-css  */
 header {
   width: 300px;
   border: 10px solid orangered;
@@ -111,6 +113,7 @@ footer {
   margin: 20px;
   font-style: italic;
   font-weight: bold;
+  text-indent: 120px;
   text-align: right;
   background-image: url("./image/green.jpg");
 }  
