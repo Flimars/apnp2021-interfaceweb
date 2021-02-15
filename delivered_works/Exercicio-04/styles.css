@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/* ### index01.htm-css  */
 header {
     width: 300px;
     border: 15px solid orangered;
@@ -42,4 +42,75 @@ p {
   font-size: 20px;
 }
 
+/* ### index02.htm-css  */
+header {
+  width: 300px;
+  border: 10px solid orangered;
+  padding: 50px;
+  margin: 20px; 
+  letter-spacing: 0px;
+  font-size: 30px;
+  text-decoration: underline; 
+  text-align: center; 
+  background-image: url("https://i.pinimg.com/236x/83/71/bb/8371bbe78ca221934d58744b584a6439.jpg"); 
+}  
+      
 
+
+body {
+    color: black;
+    /*background-image: url("https://i.pinimg.com/236x/83/71/bb/8371bbe78ca221934d58744b584a6439.jpg"); }*/
+  
+  nav {
+  width: 300px;
+  height: 00px;
+  border: 10px solid orangered;
+  padding: 50px;
+  margin: 20px;
+  direction: ltr;
+  text-align: left;
+  background-image: url("./image/yellow.jpg")
+}
+
+main {
+  width: 300px;
+  border: 10px solid orangered;
+  padding: 50px;
+  margin: 20px;
+  background-image: url("./image/grey.jpg");
+        
+}
+
+div.titulo {
+  font-size: x-large;
+  line-height: 3.0;
+  white-space: pre-line;
+  text-align: center;
+}
+
+div.italico {
+  font-style: italic;
+  text-align: center;
+}
+
+p.negrito {
+  font-weight: 900;
+  text-align: left;
+}
+
+p.vermelho {
+  color: red;
+  direction: ltr;
+  text-align: left;
+}
+
+footer {
+  width: 300px;
+  border: 10px solid orangered;
+  padding: 50px;
+  margin: 20px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: right;
+  background-image: url("./image/green.jpg");
+}  
